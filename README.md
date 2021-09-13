@@ -1,14 +1,11 @@
-# Welcome to your CDK TypeScript project!
+# Synth CDK app to Portable CloudFormation
 
-This is a blank project for TypeScript development with CDK.
+Demonstrates how to build Portable CloudFormation templates from CDK apps.
 
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
+[Read the full article on my blog](http://bliskavka.com/2021/09/13/synth-cdk-to-cloudformation/)
 
-## Useful commands
-
- * `npm run build`   compile typescript to js
- * `npm run watch`   watch for changes and compile
- * `npm run test`    perform the jest unit tests
- * `cdk deploy`      deploy this stack to your default AWS account/region
- * `cdk diff`        compare deployed stack with current state
- * `cdk synth`       emits the synthesized CloudFormation template
+```bash
+npm install
+npm run synth
+npm run synth:product
+```
